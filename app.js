@@ -4,8 +4,7 @@
 
 const container = document.querySelector('#container');
 const baseURL = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
-//const documentFragment = document.createElementFragment();
-
+const documentFragment = document.createElementFragment();
 
 //const TEAM = new Array ---- // Cause timeOut load page !
 const TEAM = [];
@@ -37,10 +36,10 @@ while (TEAM.length !== 6) {
 
         POKE_BOX.appendChild(img);
         POKE_BOX.appendChild(NUMBER);
-        container.appendChild(POKE_BOX);
+        //container.appendChild(POKE_BOX);
 
-        //documentFragment.appendChild(POKE_BOX);
-        //container.appendChild(documentFragment);  //Add nodes once in DOM.
+        documentFragment.appendChild(POKE_BOX);
+        container.appendChild(documentFragment);  //Add nodes once in DOM.
     };
 };
 
