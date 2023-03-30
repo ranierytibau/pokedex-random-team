@@ -5,7 +5,7 @@
 const container = document.querySelector('#container');
 const baseURL = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
 const elementFragment = document.createDocumentFragment();
-const TEAM = [];   //const TEAM = new Array ---- // Cause timeOut load page !
+const TEAM = [];  //const TEAM = new Array ---- // Cause timeOut load page !
 let find = false;
 
 while (TEAM.length !== 6) {
