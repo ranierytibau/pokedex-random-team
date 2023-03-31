@@ -37,7 +37,7 @@ while (TEAM.length !== 6) {
         //container.appendChild(POKE_BOX);
 
         elementFragment.appendChild(POKE_BOX);
-        container.appendChild(elementFragment)
+        container.appendChild(elementFragment);
     };
 };
 
